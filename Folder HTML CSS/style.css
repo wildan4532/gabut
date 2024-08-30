@@ -1,0 +1,144 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #7e6666;
+}
+
+.phone {
+    width: 280px;  /* Typical width of a mobile phone */
+    height: 610px; /* Typical height of a mobile phone */
+    border: 16px solid black;
+    border-radius: 36px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+    position: relative;
+}
+
+.phone::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 5px;
+    background: #333;
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+    left: calc(50% - 30px);
+}
+
+.screen {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.daftarkan {
+    width: 271px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #af3514;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.daftarkan a{
+    text-decoration: none;
+    color: #ffffff;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.makeakunbtn{
+    position: absolute;
+    top: 30px;
+    left:10px;
+}
+.makeakun form{
+    margin-top: 70px;
+    margin-left: 2px;
+}
+.makeakunform h1{
+    position: absolute;
+    top:95px ;
+    left:25px ;
+}
+.makeakunp{
+    position: absolute;
+    top:120px ;
+    left: 25px;
+    font-size: 12px;
+}
+.gname{
+    margin-bottom: 10px;
+}
+.gname input{
+    padding: 5px;
+    width: 260px;
+    height: 23px;
+    border-radius: 3px;
+    border: none;
+    background-color: #82808025;
+    outline: none;
+    padding-left: 7px;
+    text-indent: 10px;
+}
+.gname input:focus{
+    border:2px solid rgb(9, 165, 80);
+    border-radius: 3px;
+}
+.gname label{
+    font-weight: bold;
+    color: #161414;
+    margin-bottom: -15px;
+    display: block;
+    text-align: left;
+}
+.gname ::placeholder{
+    font-size: 10px;
+    opacity: 0.5;
+    padding: 4px 4px 4px 1px;
+}
+.smalltext{
+    display: block;
+    margin-top: 5px; /* Jarak antara input dan teks kecil */
+    color: #666; /* Warna teks kecil */
+    font-size: 10px;
+    text-align: left;
+}
+
+.daftarkan:hover{
+    background-color: #631c11fa;
+}
+

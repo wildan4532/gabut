@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with Small Text Example</title>
+    <style>
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+
+        .small-text {
+            display: block;
+            margin-top: 5px; /* Jarak antara input dan teks kecil */
+            font-size: 12px; /* Ukuran font untuk teks kecil */
+            color: #666; /* Warna teks kecil */
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div class="form-group">
+            <label for="input1">Input 1:</label>
+            <input type="text" id="input1" placeholder="Input 1">
+            <small class="small-text">This is a small text below the input.</small>
+        </div>
+
+        <div class="form-group">
+            <label for="input2">Input 2:</label>
+            <input type="text" id="input2" placeholder="Input 2">
+            <small class="small-text">Another small text below the second input.</small>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
